@@ -1,7 +1,7 @@
 import {Box, Button, Typography} from '@mui/material'
 function Inicio() {
     return(        
-        <Box /*Hero*/>
+        <Box sx={{display:'flex', backgroundColor:'#1c1c1c'}}/*Hero*/>
             <Box /*Hero-Texto*/>
                 <Typography>
                     Hola, soy<br />
@@ -25,8 +25,14 @@ function Inicio() {
                     <Button>
                         Contacto
                     </Button>
-                </Box>
+                    
+                </Box>   
             </Box>
+
+            <Box /*Renegul*/component="img" src='' sx={{width:'500px'}}>
+
+            </Box>
+            
         </Box>
         
 
