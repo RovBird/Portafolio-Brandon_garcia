@@ -11,8 +11,8 @@ import Contacto from './pages/Contacto'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Inicio />
-    <Sobre />
     <Tecnologias />
+    <Sobre />
     <Proyectos />
     <Contacto />
 
