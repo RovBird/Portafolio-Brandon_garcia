@@ -36,6 +36,7 @@ function Tecnologias() {
                     <Box /*imagen-tarjeta*/component="img" src="./react.png" sx={{height:'40px',width:'40px'}}></Box>
                     <Box /*Nombre tecnologia*/sx={{display:'flex',alignItems:'center'}}><Typography>React</Typography></Box>
                 </Card>
+                
             </Box>
         </Box>
     
